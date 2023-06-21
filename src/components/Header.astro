@@ -1,0 +1,25 @@
+---
+import LiElement from "./LiElement.astro";
+---
+
+<nav class="navbar navbar-expand-sm" style="box-shadow: 0px 0px 10px #888888;">
+    <div class="container-fluid">
+      <a class="navbar-brand mx-5" href="#">
+        <img src="../public/dexpatent-logo.webp" alt="Patent Search Logo" style="width: 170px; height: unset;" height="100">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse mx-5" id="mynavbar">
+        <ul class="navbar-nav" style="margin-left:auto;gap:4em;  font-weight: 700;">
+            <LiElement link="https://www.dexpatent.com/services.php" name="Services" />
+            <LiElement link="#" name="Customers" />
+            <LiElement link="https://www.dexpatent.com/insights/" name="Patent Insights" />
+            <LiElement link="#" name="Get a Quote" />
+            <li class="nav-item">
+                <a class="nav-link" href="#"><svg class="svg-inline--fa fa-search fa-w-16" style="color: #F5B82B;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg><!-- <i class="fas fa-search" style="color: #F5B82B;"></i> Font Awesome fontawesome.com --></a>
+            </li>
+        </ul>
+      </div>
+    </div>
+</nav>

@@ -1,0 +1,89 @@
+---
+import FooterLIElement from "./FooterLIElement.astro";
+
+---
+
+<footer class="text-center text-sm-start">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <h3 class="footer-title">ABOUT US</h3>
+                <ul class="list-unstyled footer-lists">
+                    <FooterLIElement link="https://www.dexpatent.com/aboutus.php" name="About"/>
+                    <FooterLIElement link="https://www.dexpatent.com/team.php" name="Team"/>
+                    <FooterLIElement link="http://www.dexpatent.com/contactus.php" name="Contact"/>
+                    <FooterLIElement link="https://www.dexpatent.com/careers.php" name="Careers"/>
+                    <FooterLIElement link="https://www.dexpatent.com/engagement.php" name="Engagement Model"/>
+                    <FooterLIElement link="https://www.dexpatent.com/security.php" name="Information Security"/>
+                    <FooterLIElement link="https://www.dexpatent.com/termsofuse.php" name="Terms"/>
+                    <FooterLIElement link="https://www.dexpatent.com/privacy.php" name="Privacy"/>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <h3 class="footer-title">Resources</h3>
+                <ul class="list-unstyled footer-lists">
+                    <FooterLIElement link="https://www.dexpatent.com/careers.php" name="Customer Testimonials"/>
+                    <FooterLIElement link="https://dexpatent.com/insights/" name="Patent News Box"/>
+                    <FooterLIElement link="https://www.dexpatent.com/service_quickpair.php" name="Blogs & Insights"/>
+                    <FooterLIElement link="https://www.dexpatent.com/knowledgetech.php" name="Patent FAQ"/>
+                    <FooterLIElement link="https://www.dexpatent.com/media.php" name="Media"/>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <h3 class="footer-title">Services</h3>
+                <ul class="list-unstyled footer-lists">
+                    <FooterLIElement link="https://www.dexpatent.com/ipsearch.php" name="Patent Search and Analytics"/>
+                    <FooterLIElement link="https://www.dexpatent.com/ipcreation.php" name="Patent Creation"/>
+                    <FooterLIElement link="https://www.dexpatent.com/ipstrategy.php" name="Patent Strategy & Management"/>
+                    <FooterLIElement link="https://www.dexpatent.com/ipmonetization.php" name="Patent Monetization"/>
+                    <FooterLIElement link="https://www.dexpatent.com/solutions-ipconsulting.php" name="Other Services"/>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+            <h3 class="footer-title">Customers</h3>
+                <ul class="list-unstyled footer-lists">
+                    <FooterLIElement link="https://www.dexpatent.com/solutions-technology.php" name="Tech Companies"/>
+                    <FooterLIElement link="https://www.dexpatent.com/solutions-iplaw.php" name="IP Law Firms"/>
+                    <FooterLIElement link="https://www.dexpatent.com/ipcreation.php" name="IP Attorneys & Agents"/>
+                    <FooterLIElement link="https://www.dexpatent.com/ipsearch.php" name="Research Organizations"/>
+                    <FooterLIElement link="https://www.dexpatent.com/solutions-universities.php" name="Universities"/>
+                    <FooterLIElement link="https://www.dexpatent.com/solutions-technology.php" name="Technology Centers"/>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container pt-2 pb-4">
+        <div class="row">
+            <div class="col-lg-7">
+                <p class="m-0" style="font-size: 18px;">2006 -
+                    <?php echo date("Y"); ?> &copy; DexPatent.
+                    <span>All Rights Reserved.</span>
+                </p>
+            </div>
+             <div class="col-lg-5 mt-2">
+                <i class="fab fa-twitter fa-6x circle-icon icon-size mx-3"></i>
+                <i class="fab fa-facebook-square fa-6x circle-icon icon-size mx-3"></i>
+                <i class="fab fa-instagram fa-6x circle-icon icon-size mx-3"></i>
+                <i class="fab fa-linkedin fa-6x circle-icon icon-size mx-3"></i>
+            </div>
+        </div>
+        
+    </div>
+</footer>
+<style>
+    footer{
+        font-family: "Roboto Condensed", sans-serif;
+        background-color: #E5E5E5;
+        color: #000;
+        padding-top: 50px;
+    }
+    .footer-title{
+        font-weight: 600;
+        font-size: 22px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    .icon-size{
+        font-size: 40px;
+    }
+</style>

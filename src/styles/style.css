@@ -1,0 +1,55 @@
+h1{
+    font-size: 40px; 
+    /*color:F5B82B;*/
+ }
+ h2{
+     font-size: 30px;
+     color: #5E6061;
+     text-align: center;
+ }
+ h3{
+     font-size: 24px;
+     text-align: center;
+ }
+ p,li{
+     font-size: 20px;
+     line-height: 35px;
+     text-align: left;
+ }
+
+ @media (min-width: 768px){
+     .semi-container{
+         width: 60% !important;
+    }
+     .page-title{
+         margin-top: 100px;
+    }
+    .quote-cmn{
+        font-weight: 600; 
+        font-size: 1.9em;
+        text-align: center;
+        line-height: 1.5em; 
+        padding-top: 0.2em;
+    }
+}
+ @media(max-width: 767px){
+  .stars{
+           display: flex;
+           position: relative;
+           font-size: 1.4em;
+           justify-content: center;
+           margin: 1em;
+           color: #F1C700;
+          }
+    .quote-cmn{
+    font-weight: 600; 
+    font-size: 18px; 
+    line-height: 1.5em; 
+    padding-top: 0.2em;
+    }
+     }
+     
+.stars{
+font-size: 22px;
+color: #FFA500;
+}

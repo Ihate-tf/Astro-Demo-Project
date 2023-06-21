@@ -1,0 +1,33 @@
+---
+const { img, title, name } = Astro.props;
+---
+<div class="col-md-4 align-self-center text-center row-border">
+    <div class="card card-block card_panel">
+      <p class="text-center pt-3"><b>{title}</b></p>
+      <img src={img} class="img-fluid mx-auto" alt={title} title={title} style="width: 50%;">
+      <hr>
+      <p class="text-center" style="font-size: 18px;padding: 0px 20px 0px 20px;">{name}</p>
+    </div>
+</div>
+
+<style>
+    .card_panel{
+      border: 2px solid rgba(0,0,0,.125)!important;
+      transition: ease-in-out 0.1s;
+    }
+  
+    .card_panel:hover{
+      border: 2px solid #fff !important;
+      box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  
+    }
+      .qt-get-start-btn {
+      font-size: 20px;
+      color: #fff;
+       height: 50px;
+       border-radius: 30px!important; 
+      border: none;
+      padding-top: 10px;
+      text-transform: none;
+      }
+</style>

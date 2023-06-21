@@ -1,0 +1,20 @@
+---
+const { link, name } = Astro.props;
+---
+
+<li>
+    <a href={link}>{name}</a>
+</li>
+
+<style>
+     li{
+        font-size: 16px;
+        line-height: 30px !important;
+    }
+
+     li > a{
+        text-decoration: none;
+        color: #000;
+        font-weight: 500;
+     }
+</style>
